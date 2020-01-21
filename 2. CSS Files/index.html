@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XBlog</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(0deg, #00000077, #00000077),
+                url(./background.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Nav */
+        .index-nav {
+            color: #f5f5f5;
+        }
+
+        .index-nav a:hover {
+            color: #ccc !important;
+        }
+
+        main.index-main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #f5f5f5;
+        }
+
+        .index-nav a {
+            color: #f5f5f5;
+        }
+
+        main.index-main h1 {
+            font-size: 3rem;
+        }
+
+        main.index-main button {
+            all: unset;
+            background-color: #32adc1;
+            padding: 15px 40px;
+            position: relative;
+            left: 25%;
+            top: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 22px;
+        }
+
+        main.index-main button:hover {
+            background-color: #2ea4b6;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="index-nav">
+        <a href="#">XBlog</a>
+        <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a>Join</a></li>
+            <li><a>Login</a></li>
+        </ul>
+    </nav>
+
+    <main class="index-main">
+        <h1 style="font-size: 3rem;text-align:center">Read, Write, Repeat.</h1>
+        <button>Start Reading</button>
+    </main>
+</body>
+
+</html>
